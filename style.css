@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#container{
+    border: 1px solid black;
+    width: 650px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #fff;
+    font-size: 1rem;
+   
+}
+.main{
+    padding: 40px 30px;
+
+   
+}
+h1{
+    color: #0D0D0D;
+    margin-top: 40px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.profile{
+    color: #8c030e;
+    margin-bottom: 10px;
+}
+.img{
+    width: 100%;
+    height: 350px;
+
+
+}
+.logo{
+  
+    width: 100px;
+}
+.aboutText{
+    color: #0D0D0D; 
+    display: grid;
+    grid-template-columns: 7% 90%;
+
+}
+i{
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.sidhu{
+    
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+    
+}
